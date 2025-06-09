@@ -1,0 +1,51 @@
+[
+  {
+    "id": "puzzle1",
+    "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "solution": ["e2e4", "e7e5"],
+    "description": "Opening sequence: Play e4, then expect e5.",
+    "turn": "w"
+  },
+  {
+    "id": "puzzle2",
+    "fen": "4k3/8/8/8/8/8/8/4K2R w K - 0 1",
+    "solution": ["h1h5"],
+    "description": "Activate the rook. White to play Rh1h5.",
+    "turn": "w"
+  },
+  {
+    "id": "puzzle3_back_rank_mate",
+    "fen": "6k1/5ppp/8/8/8/8/R4PPP/4R1K1 w - - 0 1",
+    "solution": ["e1e8"],
+    "description": "Mate in 1. White to deliver a back-rank mate.",
+    "turn": "w"
+  },
+  {
+    "id": "puzzle4_knight_fork",
+    "fen": "r1bqk2r/ppp2ppp/2np1n2/2b1p3/2B1P3/2NP1N2/PPP2PPP/R1BQK2R w KQkq - 0 6",
+    "solution": ["f3g5", "e8g8", "g5f7"],
+    "description": "White to move. Initiate a sequence to win material with a knight fork.",
+    "turn": "w"
+  },
+  {
+    "id": "puzzle5_pawn_promotion",
+    "fen": "8/P1k5/8/8/8/8/8/K7 w - - 0 1",
+    "solution": ["a7a8q"],
+    "description": "White to move. Promote the pawn to a Queen.",
+    "turn": "w"
+  },
+  {
+    "id": "puzzle6_queen_sacrifice_mate",
+    "fen": "r1bk3r/ppp2ppp/2p5/2b5/2B1P3/2N5/PPP2PPP/R1B1K2R w KQ - 2 9",
+    "solution": ["c4f7", "h8f8", "f7g6", "f8f2", "g6h5", "f2c2", "h5g6"],
+    "description": "A slightly longer sequence. White to play. (This is a bit random, just for testing sequence length)",
+    "turn": "w"
+  },
+  {
+    "id": "puzzle7_black_to_move_simple_capture",
+    "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+    "solution": ["e5d4"],
+    "description": "Black to move. Capture the White pawn.",
+    "turn": "b"
+  }
+]

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Puzzles</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Chess Puzzles</h1>
+
+    <div id="puzzle_info_container">
+        <div id="puzzle_description">Puzzle description will appear here.</div>
+        <div id="turn_indicator">Turn: -</div>
+    </div>
+
+    <div id="puzzle-container">
+        <!-- Old puzzle text display area, can be removed or repurposed if not needed -->
+        <!-- For now, main.js displayPuzzle() targets this, let's keep it for a bit -->
+    </div>
+
+    <div id="chessboard_container">
+        <div id="chessboard">
+            <!-- Squares will be generated here by JavaScript -->
+        </div>
+    </div>
+
+    <div id="message_area" style="margin-top: 15px; height: 20px; text-align: center;"></div>
+    <button id="next_puzzle_button" style="display:none; margin-top: 10px;">Next Puzzle</button>
+
+    <script src="js/chess.js"></script>
+    <script src="js/main.js"></script>
+    <script defer src="tests/tests.js"></script>
+</body>
+</html>
