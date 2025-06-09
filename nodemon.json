@@ -1,0 +1,6 @@
+{
+  "watch": ["js/", "tests/"],
+  "ext": "ts",
+  "ignore": ["dist/", "node_modules/", "coverage/"],
+  "exec": "npm run build"
+}
